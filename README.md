@@ -54,6 +54,10 @@ For a simple example, consider the common system feature of login impersonation.
 
 ```
 
+The result is a statement that says, if you were to read it as a sentence:
+
+`Joe Instructor logs into the LMS "as" Jill Learner`
+
 
 ## License
 

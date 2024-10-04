@@ -1,5 +1,3 @@
-![SQL LRS Logo](doc/images/doc_logo.png)
-
 # xAPI Prepositions
 
 ## What is it?

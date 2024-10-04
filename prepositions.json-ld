@@ -1,0 +1,1689 @@
+{
+    "definition": {
+        "en": "A set of extensions representing prepositional objects to augment xAPI Statements. The value of each extension is an xAPI object (Activity, StatementRef, SubStatement, Agent or Group)."
+    },
+    "prefLabel": {
+        "en": "Prepositions"
+    },
+    "type": "Profile",
+    "author": {
+        "type": "Organization",
+        "name": "Yet Analytics Inc.",
+        "url": "https://yetanalytics.com/"
+    },
+    "concepts": [
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `versus`."
+            },
+            "prefLabel": {
+                "en": "Versus"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/versus"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `against`."
+            },
+            "prefLabel": {
+                "en": "Against"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/against"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `per`."
+            },
+            "prefLabel": {
+                "en": "Per"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/per"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `off`."
+            },
+            "prefLabel": {
+                "en": "Off"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/off"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `opposite`."
+            },
+            "prefLabel": {
+                "en": "Opposite"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/opposite"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `in`."
+            },
+            "prefLabel": {
+                "en": "In"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/in"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `on to`."
+            },
+            "prefLabel": {
+                "en": "On to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/on-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `as well as`."
+            },
+            "prefLabel": {
+                "en": "As well as"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/as-well-as"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `forward of`."
+            },
+            "prefLabel": {
+                "en": "Forward of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/forward-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `by means of`."
+            },
+            "prefLabel": {
+                "en": "By means of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by-means-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `below`."
+            },
+            "prefLabel": {
+                "en": "Below"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/below"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `as per`."
+            },
+            "prefLabel": {
+                "en": "As per"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/as-per"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `inside`."
+            },
+            "prefLabel": {
+                "en": "Inside"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/inside"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `underneath`."
+            },
+            "prefLabel": {
+                "en": "Underneath"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/underneath"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `beyond`."
+            },
+            "prefLabel": {
+                "en": "Beyond"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/beyond"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `but`."
+            },
+            "prefLabel": {
+                "en": "But"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/but"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `outside of`."
+            },
+            "prefLabel": {
+                "en": "Outside of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/outside-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `without`."
+            },
+            "prefLabel": {
+                "en": "Without"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/without"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `thanks to`."
+            },
+            "prefLabel": {
+                "en": "Thanks to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/thanks-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `atop`."
+            },
+            "prefLabel": {
+                "en": "Atop"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/atop"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `less`."
+            },
+            "prefLabel": {
+                "en": "Less"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/less"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `down`."
+            },
+            "prefLabel": {
+                "en": "Down"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/down"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `by`."
+            },
+            "prefLabel": {
+                "en": "By"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/by"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `because of`."
+            },
+            "prefLabel": {
+                "en": "Because of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/because-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `upon`."
+            },
+            "prefLabel": {
+                "en": "Upon"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/upon"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `until`."
+            },
+            "prefLabel": {
+                "en": "Until"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/until"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `beside`."
+            },
+            "prefLabel": {
+                "en": "Beside"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/beside"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `owing to`."
+            },
+            "prefLabel": {
+                "en": "Owing to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/owing-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `bar`."
+            },
+            "prefLabel": {
+                "en": "Bar"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/bar"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `opposite to`."
+            },
+            "prefLabel": {
+                "en": "Opposite to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/opposite-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `à la`."
+            },
+            "prefLabel": {
+                "en": "À la"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/à-la"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `for`."
+            },
+            "prefLabel": {
+                "en": "For"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/for"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `aside from`."
+            },
+            "prefLabel": {
+                "en": "Aside from"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/aside-from"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `up against`."
+            },
+            "prefLabel": {
+                "en": "Up against"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/up-against"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `like`."
+            },
+            "prefLabel": {
+                "en": "Like"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/like"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `up until`."
+            },
+            "prefLabel": {
+                "en": "Up until"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/up-until"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `about`."
+            },
+            "prefLabel": {
+                "en": "About"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/about"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `circa`."
+            },
+            "prefLabel": {
+                "en": "Circa"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/circa"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `round`."
+            },
+            "prefLabel": {
+                "en": "Round"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/round"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `till`."
+            },
+            "prefLabel": {
+                "en": "Till"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/till"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `despite`."
+            },
+            "prefLabel": {
+                "en": "Despite"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/despite"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `next to`."
+            },
+            "prefLabel": {
+                "en": "Next to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/next-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `respecting`."
+            },
+            "prefLabel": {
+                "en": "Respecting"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/respecting"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `unlike`."
+            },
+            "prefLabel": {
+                "en": "Unlike"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/unlike"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `in spite of`."
+            },
+            "prefLabel": {
+                "en": "In spite of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/in-spite-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `following`."
+            },
+            "prefLabel": {
+                "en": "Following"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/following"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `via`."
+            },
+            "prefLabel": {
+                "en": "Via"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/via"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `along`."
+            },
+            "prefLabel": {
+                "en": "Along"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/along"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `due to`."
+            },
+            "prefLabel": {
+                "en": "Due to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/due-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `regardless of`."
+            },
+            "prefLabel": {
+                "en": "Regardless of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/regardless-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `up`."
+            },
+            "prefLabel": {
+                "en": "Up"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/up"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `notwithstanding`."
+            },
+            "prefLabel": {
+                "en": "Notwithstanding"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/notwithstanding"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `other than`."
+            },
+            "prefLabel": {
+                "en": "Other than"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/other-than"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `according to`."
+            },
+            "prefLabel": {
+                "en": "According to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/according-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `along with`."
+            },
+            "prefLabel": {
+                "en": "Along with"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/along-with"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `with`."
+            },
+            "prefLabel": {
+                "en": "With"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/with"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `as for`."
+            },
+            "prefLabel": {
+                "en": "As for"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/as-for"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `considering`."
+            },
+            "prefLabel": {
+                "en": "Considering"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/considering"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `plus`."
+            },
+            "prefLabel": {
+                "en": "Plus"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/plus"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `regarding`."
+            },
+            "prefLabel": {
+                "en": "Regarding"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/regarding"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `given`."
+            },
+            "prefLabel": {
+                "en": "Given"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/given"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `re`."
+            },
+            "prefLabel": {
+                "en": "Re"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/re"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `to`."
+            },
+            "prefLabel": {
+                "en": "To"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `away from`."
+            },
+            "prefLabel": {
+                "en": "Away from"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/away-from"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `preparatory to`."
+            },
+            "prefLabel": {
+                "en": "Preparatory to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/preparatory-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `but for`."
+            },
+            "prefLabel": {
+                "en": "But for"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/but-for"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `in face of`."
+            },
+            "prefLabel": {
+                "en": "In face of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/in-face-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `on account of`."
+            },
+            "prefLabel": {
+                "en": "On account of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/on-account-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `worth`."
+            },
+            "prefLabel": {
+                "en": "Worth"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/worth"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `towards`."
+            },
+            "prefLabel": {
+                "en": "Towards"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/towards"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `toward`."
+            },
+            "prefLabel": {
+                "en": "Toward"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/toward"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `up to`."
+            },
+            "prefLabel": {
+                "en": "Up to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/up-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `from`."
+            },
+            "prefLabel": {
+                "en": "From"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/from"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `contrary to`."
+            },
+            "prefLabel": {
+                "en": "Contrary to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/contrary-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `prior to`."
+            },
+            "prefLabel": {
+                "en": "Prior to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/prior-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `above`."
+            },
+            "prefLabel": {
+                "en": "Above"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/above"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `touching`."
+            },
+            "prefLabel": {
+                "en": "Touching"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/touching"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `besides`."
+            },
+            "prefLabel": {
+                "en": "Besides"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/besides"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `anti`."
+            },
+            "prefLabel": {
+                "en": "Anti"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/anti"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `on top of`."
+            },
+            "prefLabel": {
+                "en": "On top of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/on-top-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `as`."
+            },
+            "prefLabel": {
+                "en": "As"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/as"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `pro`."
+            },
+            "prefLabel": {
+                "en": "Pro"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/pro"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `before`."
+            },
+            "prefLabel": {
+                "en": "Before"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/before"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `vis-à-vis`."
+            },
+            "prefLabel": {
+                "en": "Vis-à-vis"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/vis-à-vis"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `saving`."
+            },
+            "prefLabel": {
+                "en": "Saving"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/saving"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `onto`."
+            },
+            "prefLabel": {
+                "en": "Onto"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/onto"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `including`."
+            },
+            "prefLabel": {
+                "en": "Including"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/including"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `than`."
+            },
+            "prefLabel": {
+                "en": "Than"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/than"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `except for`."
+            },
+            "prefLabel": {
+                "en": "Except for"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/except-for"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `on`."
+            },
+            "prefLabel": {
+                "en": "On"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/on"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `instead of`."
+            },
+            "prefLabel": {
+                "en": "Instead of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/instead-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `together with`."
+            },
+            "prefLabel": {
+                "en": "Together with"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/together-with"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `pending`."
+            },
+            "prefLabel": {
+                "en": "Pending"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/pending"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `thru`."
+            },
+            "prefLabel": {
+                "en": "Thru"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/thru"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `as to`."
+            },
+            "prefLabel": {
+                "en": "As to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/as-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `among`."
+            },
+            "prefLabel": {
+                "en": "Among"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/among"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `ahead of`."
+            },
+            "prefLabel": {
+                "en": "Ahead of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/ahead-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `near`."
+            },
+            "prefLabel": {
+                "en": "Near"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/near"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `aboard`."
+            },
+            "prefLabel": {
+                "en": "Aboard"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/aboard"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `amid`."
+            },
+            "prefLabel": {
+                "en": "Amid"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/amid"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `outside`."
+            },
+            "prefLabel": {
+                "en": "Outside"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/outside"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `in view of`."
+            },
+            "prefLabel": {
+                "en": "In view of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/in-view-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `amidst`."
+            },
+            "prefLabel": {
+                "en": "Amidst"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/amidst"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `minus`."
+            },
+            "prefLabel": {
+                "en": "Minus"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/minus"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `close to`."
+            },
+            "prefLabel": {
+                "en": "Close to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/close-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `concerning`."
+            },
+            "prefLabel": {
+                "en": "Concerning"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/concerning"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `near to`."
+            },
+            "prefLabel": {
+                "en": "Near to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/near-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `amongst`."
+            },
+            "prefLabel": {
+                "en": "Amongst"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/amongst"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `gone`."
+            },
+            "prefLabel": {
+                "en": "Gone"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/gone"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `in front of`."
+            },
+            "prefLabel": {
+                "en": "In front of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/in-front-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `beneath`."
+            },
+            "prefLabel": {
+                "en": "Beneath"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/beneath"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `on behalf of`."
+            },
+            "prefLabel": {
+                "en": "On behalf of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/on-behalf-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `after`."
+            },
+            "prefLabel": {
+                "en": "After"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/after"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `of`."
+            },
+            "prefLabel": {
+                "en": "Of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `throughout`."
+            },
+            "prefLabel": {
+                "en": "Throughout"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/throughout"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `during`."
+            },
+            "prefLabel": {
+                "en": "During"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/during"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `past`."
+            },
+            "prefLabel": {
+                "en": "Past"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/past"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `cum`."
+            },
+            "prefLabel": {
+                "en": "Cum"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/cum"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `apart from`."
+            },
+            "prefLabel": {
+                "en": "Apart from"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/apart-from"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `behind`."
+            },
+            "prefLabel": {
+                "en": "Behind"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/behind"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `excluding`."
+            },
+            "prefLabel": {
+                "en": "Excluding"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/excluding"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `into`."
+            },
+            "prefLabel": {
+                "en": "Into"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/into"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `over`."
+            },
+            "prefLabel": {
+                "en": "Over"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/over"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `in case of`."
+            },
+            "prefLabel": {
+                "en": "In case of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/in-case-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `irrespective of`."
+            },
+            "prefLabel": {
+                "en": "Irrespective of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/irrespective-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `on board`."
+            },
+            "prefLabel": {
+                "en": "On board"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/on-board"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `at`."
+            },
+            "prefLabel": {
+                "en": "At"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/at"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `counting`."
+            },
+            "prefLabel": {
+                "en": "Counting"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/counting"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `save for`."
+            },
+            "prefLabel": {
+                "en": "Save for"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/save-for"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `further to`."
+            },
+            "prefLabel": {
+                "en": "Further to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/further-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `around`."
+            },
+            "prefLabel": {
+                "en": "Around"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/around"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `since`."
+            },
+            "prefLabel": {
+                "en": "Since"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/since"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `across`."
+            },
+            "prefLabel": {
+                "en": "Across"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/across"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `under`."
+            },
+            "prefLabel": {
+                "en": "Under"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/under"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `out of`."
+            },
+            "prefLabel": {
+                "en": "Out of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/out-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `in favour of`."
+            },
+            "prefLabel": {
+                "en": "In favour of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/in-favour-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `astride`."
+            },
+            "prefLabel": {
+                "en": "Astride"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/astride"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `within`."
+            },
+            "prefLabel": {
+                "en": "Within"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/within"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `save`."
+            },
+            "prefLabel": {
+                "en": "Save"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/save"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `in addition to`."
+            },
+            "prefLabel": {
+                "en": "In addition to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/in-addition-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `in between`."
+            },
+            "prefLabel": {
+                "en": "In between"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/in-between"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `barring`."
+            },
+            "prefLabel": {
+                "en": "Barring"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/barring"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `excepting`."
+            },
+            "prefLabel": {
+                "en": "Excepting"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/excepting"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `with reference to`."
+            },
+            "prefLabel": {
+                "en": "With reference to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/with-reference-to"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `through`."
+            },
+            "prefLabel": {
+                "en": "Through"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/through"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `alongside`."
+            },
+            "prefLabel": {
+                "en": "Alongside"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/alongside"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `between`."
+            },
+            "prefLabel": {
+                "en": "Between"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/between"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `in lieu of`."
+            },
+            "prefLabel": {
+                "en": "In lieu of"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/in-lieu-of"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `depending on`."
+            },
+            "prefLabel": {
+                "en": "Depending on"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/depending-on"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `except`."
+            },
+            "prefLabel": {
+                "en": "Except"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/except"
+        },
+        {
+            "definition": {
+                "en": "Additional xAPI Object related using preposition `with regard to`."
+            },
+            "prefLabel": {
+                "en": "With regard to"
+            },
+            "type": "ContextExtension",
+            "inScheme": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "id": "https://yetanalytics.com/profiles/prepositions/concepts/context-extensions/with-regard-to"
+        }
+    ],
+    "id": "https://yetanalytics.com/profiles/prepositions",
+    "conformsTo": "https://w3id.org/xapi/profiles#1.0",
+    "versions": [
+        {
+            "id": "https://yetanalytics.com/profiles/prepositions/draft-21ed537b-a90c-4080-9c31-3fcdc94229cd",
+            "wasRevisionOf": [
+                "https://yetanalytics.com/profiles/prepositions/draft-7e729864-1555-441f-a611-3970795d8e1f"
+            ],
+            "generatedAtTime": "2024-08-15T15:48:42.330Z"
+        }
+    ],
+    "@context": "https://w3id.org/xapi/profiles/context"
+}

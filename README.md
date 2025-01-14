@@ -61,6 +61,6 @@ The result is a statement that says, if you were to read it as a sentence:
 
 ## License
 
-Copyright © 2021-2024 Yet Analytics, Inc.
+Copyright © 2021-2025 Yet Analytics, Inc.
 
 Distributed under the Apache License version 2.0.
